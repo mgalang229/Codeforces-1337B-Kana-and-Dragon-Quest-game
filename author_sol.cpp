@@ -10,7 +10,7 @@ int main() {
 	while (tt--) {
 		int x, n, m;
 		cin >> x >> n >> m;
-		// do the Void Absorption with the conditions:
+		// do the Void Absorption with the following conditions:
 		// 'x' and 'n' are still greater than 0
 		// 'x' / 2 + 10 is STRICTLY smaller than 'x' itself
 		while (x > 0 && n > 0 && x / 2 + 10 < x) {
